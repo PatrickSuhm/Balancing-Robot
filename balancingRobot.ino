@@ -1,4 +1,4 @@
-/* Note: this code was heavily influenced by: http://www.brokking.net/yabr_main.html */
+/* Note: The code was inspired by: http://www.brokking.net/yabr_main.html */
 
 #include <Wire.h>
 #include <SPI.h>
@@ -12,7 +12,7 @@ RadioData radioData;
 byte radioDataSize = sizeof(RadioData);    
 AckPayload ackPayload;                           
 byte ackPayloadSize = sizeof(AckPayload);        
-byte address[] = {"blabliblub"};               
+byte address[] = {"bla"};               
 byte pipeNr = 0;                         
 
 //Various settings
